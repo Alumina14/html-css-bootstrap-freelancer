@@ -1,0 +1,245 @@
+/*html-css-bootstrap-freelancer*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* stile nav */
+
+nav{
+  background-color: #2E3951;
+}
+
+.blocconav1{
+  display: block;
+  text-transform: uppercase;
+  float: left;
+}
+
+.blocconav1 a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.blocconav2{
+  text-transform: uppercase;
+  float: right;
+}
+
+.blocconav2 > ul li {
+  display: inline-block;
+}
+
+
+.blocconav2 > ul li a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 26px;
+
+}
+
+.blocconav2 > ul li a:hover{
+  color: #00C89F;
+}
+
+/* fine stile nav */
+
+/* primo blocco */
+
+.blocco1{
+  background-color: #00C89F;
+  text-align: center;
+  padding: 60px 0;
+
+}
+
+.row > figure img{
+width: 20%;
+height: auto;
+}
+
+.blocco1 h1{
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  font-size: 56px;
+}
+
+.blocco1 p{
+  color: white;
+  font-size: 22px;
+}
+
+.fa-star{
+  color:white;
+  font-size: 30px;
+  padding: 6px 0;
+}
+
+/*Inizio bloccoimg sezione portfolio */
+
+
+
+ .bloccoimg {
+  text-align: center;
+  padding: 20px 30px;
+}
+
+.bloccoimg > h2{
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-size: 40px;
+
+}
+
+.bloccoimg > .fa-star {
+  color: black;
+  font-size: 30px;
+}
+
+.bloccoimg > figure img{
+  max-width: 100%;
+  height: auto;
+}
+
+/*Fine bloccoimg sezione portfolio */
+
+
+/* Inizio terzo blocco */
+
+.blocco3{
+  background-color: #00C89F;
+  text-align: center;
+  padding: 80px 0;
+}
+
+.blocco3 h2{
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.blocco3 p{
+  padding: 10px 30px;
+  color: white;
+  font-size: 18px;
+  text-align: left:
+}
+
+
+.blocco3 a{
+text-decoration: none;
+color: white;
+border: 1px solid white;
+border-radius: 4px;
+padding: 20px;
+background-color: #00C89F;
+font-size: 18px;
+padding: 20px 40px;
+display: inline-block;
+}
+
+.blocco3 a:hover{
+background-color: white;
+color: black;
+}
+
+/* Fine blocco3 */
+
+/* Inizio blocco4 */
+
+.blocco4{
+  background-color: white;
+  padding: 80px 0;
+
+}
+
+.blocco4 h2{
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+}
+
+.blocco4 .fa-star {
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  display: block;
+}
+
+/* Inizio stile form blocco4 */
+
+#stileform{
+max-width: 50%;
+
+
+}
+
+#stilemessage{
+  height: 200px;
+
+}
+
+#bottone{
+  color: white;
+  background-color: #00C89F;
+  border-color: #ccc;
+  padding: 20px 40px;
+  font-size: 18px;
+  border-radius: 4px;
+  text-align: left;
+}
+
+#bottone:hover{
+  background-color: rgba(0, 0, 0, 0.6);
+
+
+}
+
+/* Fine stile form blocco4 */
+
+/*footer*/
+
+.stilefooter{
+  background-color: #2E3951;
+  padding: 80px 0;
+}
+
+.stilefooter p, h2{
+  color: white;
+}
+
+.stilefooter p{
+  font-size: 18px;
+}
+
+.sottofooter{
+  background-color: #1B2230;
+  padding: 40px 0;
+}
+
+.sottofooter p{
+  color: white;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Inizio media query */
+
+@media all and (max-width:480px) {
+  /* .blocco1 {
+    background-color: red;
+  } */
+
+
+}
