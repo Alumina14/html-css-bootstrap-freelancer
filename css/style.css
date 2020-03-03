@@ -9,8 +9,22 @@
 
 /* stile nav */
 
+.linea{
+  border-color: white;
+  height: 100px;
+  width: 100%;
+  background-color: white;
+}
+
+
+header{
+  margin-top: 76px;
+}
+
 nav{
   background-color: #2E3951;
+  padding: 20px 0;
+
 }
 
 .blocconav1{
@@ -33,6 +47,7 @@ nav{
 
 .blocconav2 > ul li {
   display: inline-block;
+  padding: 0 18px;
 }
 
 
@@ -40,7 +55,8 @@ nav{
   color: white;
   text-decoration: none;
   font-weight: bold;
-  font-size: 26px;
+  font-size: 18px;
+
 
 }
 
@@ -107,6 +123,7 @@ height: auto;
 .bloccoimg > figure img{
   max-width: 100%;
   height: auto;
+  border-radius: 10%;
 }
 
 /*Fine bloccoimg sezione portfolio */
@@ -234,12 +251,56 @@ max-width: 50%;
   text-align: center;
 }
 
+.stilefooter ul li{
+  display: inline;
+}
+
+.fa-facebook, .fa-twitter-square, .fa-linkedin-in, .fa-bootstrap {
+  font-size: 30px;
+  color: white;
+  padding: 0 10px;
+
+}
+
+.fa-facebook:hover, .fa-twitter-square:hover, .fa-linkedin-in:hover, .fa-bootstrap:hover{
+  color: lightgrey;
+}
+
+.stilefooter span {
+  font-size: 22px;
+  color: #00C89F;
+}
+
+.stilefooter span:hover {
+  text-decoration: underline;
+  color: darkgreen;
+  cursor: pointer;
+}
+
+
+
+
 /* Inizio media query */
 
-@media all and (max-width:480px) {
-  /* .blocco1 {
-    background-color: red;
-  } */
+@media all and (max-width:768px) {
+   nav {
+    text-align: center;
+  }
+
+}
+
+@media all and (max-width:468px) {
+   nav {
+    text-align: center;
+  }
+
+
+}
+
+@media all and (max-width:992px) {
+   nav {
+    text-align: center;
+  }
 
 
 }

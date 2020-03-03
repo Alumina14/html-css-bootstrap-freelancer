@@ -12,12 +12,12 @@
     <main>
     <!-- Intestazione di pagina nav in alto con header colorata di verde-->
       <header>
-        <nav class="container-fluid">
+        <nav class="navbar-fixed-top container-fluid">
           <div class="row">
-            <div class="blocconav1 col-lg-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="blocconav1 col-lg-offset-1 col-lg-5 col-md-offset-1 col-md-5 col-sm-12 col-xs-12">
               <a href="#">Start Bootstrap</a>
             </div>
-            <div class="blocconav2 col-xs-12  col-sm-12 col-md-6 col-lg-6">
+            <div class="blocconav2 col-lg-offset-1 col-lg-5 col-md-offset-1 col-md-5 col-sm-12 col-xs-12">
                 <ul>
                 <li><a href="#">Portfolio</a></li>
                 <li><a href="#">About</a></li>
@@ -41,29 +41,29 @@
       <!-- primo blocco con sezione portfolio -->
       <section class="container-fluid">
         <div class="row">
-          <div class="bloccoimg col-lg-12">
+          <div class="bloccoimg col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <h2>Portfolio</h2>
-            <i class="fas fa-star"></i>
+            <i class="linea fas fa-star"></i>
           </div>
-          <div class="bloccoimg col-lg-12">
-          <figure col-lg-4>
-            <img class="bloccoimg col-lg-4" src="img/cabin.png" alt="">
+          <div class="bloccoimg col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <figure>
+            <img class="bloccoimg col-lg-4 col-md-4 col-sm-12 col-xs-12" src="img/cabin.png" alt="">
           </figure>
           <figure>
-            <img class="bloccoimg col-lg-4" src="img/cake.png" alt="">
+            <img class="bloccoimg col-lg-4 col-md-4 col-sm-12 col-xs-12" src="img/cake.png" alt="">
           </figure>
           <figure>
-            <img class="bloccoimg col-lg-4" src="img/circus.png" alt="">
+            <img class="bloccoimg col-lg-4 col-md-4 col-sm-12 col-xs-12" src="img/circus.png" alt="">
           </figure>
-          <div class="bloccoimg col-lg-12">
+          <div class="bloccoimg col-lg-12 col-md-12 col-sm-12 col-xs-12">
           <figure>
-            <img class="bloccoimg col-lg-4" src="img/game.png" alt="">
-          </figure>
-          <figure>
-            <img class="bloccoimg col-lg-4" src="img/safe.png" alt="">
+            <img class="bloccoimg col-lg-4 col-md-4 col-sm-12 col-xs-12" src="img/game.png" alt="">
           </figure>
           <figure>
-            <img class="bloccoimg col-lg-4" src="img/submarine.png" alt="">
+            <img class="bloccoimg col-lg-4 col-md-4 col-sm-12 col-xs-12" src="img/safe.png" alt="">
+          </figure>
+          <figure>
+            <img class="bloccoimg col-lg-4 col-md-4 col-sm-12 col-xs-12" src="img/submarine.png" alt="">
           </figure>
           </div>
           </div>
@@ -73,20 +73,20 @@
       <!-- terzo blocco con sezione about -->
       <section class="container-fluid">
         <div class="row">
-          <div class="blocco3 col-lg-12">
-            <div class="div1blocco3 col-lg-12">
+          <div class="blocco3 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="div1blocco3 col-lg-12 col-md-12 col-sm-12 col-xs-12">
               <h2>About</h2>
               <i class="fas fa-star"></i>
             </div>
-            <div class="div2blocco3 col-lg-6">
+            <div class="div2blocco3 col-lg-6 col-md-6 col-sm-6 col-xs-12">
               <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
             </div>
-            <div class="div3blocco3 col-lg-6">
+            <div class="div3blocco3 col-lg-6 col-md-6 col-sm-6 col-xs-12">
               <p>You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
             </div>
             <div>
-            <div class="div4blocco3 col-lg-12">
-              <a href="#">Free Download!</a>
+            <div class="div4blocco3 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <a href="#"><i class="fas fa-download"></i> Free Download!</a>
             </div>
           </div>
 
@@ -97,12 +97,12 @@
       <!-- quarto blocco contact me piu il form -->
       <section class="container-fluid">
         <div class="row">
-          <div class="blocco4 col-lg-12">
-            <div class="col-lg-12">
+          <div class="blocco4 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
               <h2>Contact Me</h2>
               <i class="fas fa-star"></i>
             </div>
-        <form id="stileform" class="col-lg-offset-3 col-lg-6">
+        <form id="stileform" class="col-lg-offset-3 col-lg-6 col-md-offset-3 col-md-6 col-sm-offset-3 col-sm-6 col-xs-offset-3 col-xs-6">
           <div class="form-group">
             <label></label>
             <input type="text" class="form-control" id="Name" placeholder="Name">
@@ -128,25 +128,30 @@
       <!--  Footer con sottofooter -->
       <footer class="container-fluid">
         <div class="row">
-              <div class="text-center col-lg-12 stilefooter">
-          <div class="col-lg-4">
+              <div class="text-center col-lg-12 col-md-12 col-sm-12 col-xs-12 stilefooter">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-sm-4 col-xs-12">
             <h2>Location</h2>
             <p>2215 John Daniel Drive
               Clark, MO 65243</p>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-sm-4 col-xs-12">
             <h2>Around The Web</h2>
-            <p></p>
+            <p><ul>
+              <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+              <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+              <li><a href="#"><i class="fab fa-bootstrap"></i></a></li>
+            </ul></p>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-sm-4 col-xs-12">
             <h2>About Freelancer</h2>
-            <p>Freelance is a free to use, MIT licensed Bootstrap theme created by Start Bootstrap.</p>
+            <p>Freelance is a free to use, MIT licensed Bootstrap theme created by <span>Start Bootstrap</span>.</p>
           </div>
             </div>
         </div>
         <div class="row sottofooter">
-          <div class="col-lg-12">
-            <p>Copyright Copy Your Website 2020</p>
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <p>Copyright &copy; Fabio Di Gennaro 2020</p>
           </div>
         </div>
       </footer>
